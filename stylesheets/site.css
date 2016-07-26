@@ -411,66 +411,241 @@ html {
 
 /* line 9, site.css.scss */
 body {
-  background-image: url("/images/photo-2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  text-align: center;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
-  color: black;
-  height: 100%;
-  width: 100%; }
+  color: black; }
+  /* line 13, site.css.scss */
+  body #header {
+    background-color: #003c75;
+    width: 100%;
+    height: 60px;
+    position: relative; }
+    /* line 18, site.css.scss */
+    body #header .header-logo {
+      height: 60px;
+      position: absolute;
+      left: 25px;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
+      /* line 25, site.css.scss */
+      body #header .header-logo img {
+        width: 84px;
+        height: 60px; }
+    /* line 30, site.css.scss */
+    body #header .social-links {
+      height: 35px;
+      position: absolute;
+      right: 25px;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
+      /* line 37, site.css.scss */
+      body #header .social-links a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        vertical-align: middle;
+        margin-right: 15px; }
+      /* line 44, site.css.scss */
+      body #header .social-links .social-link {
+        width: 35px;
+        height: 35px; }
+  /* line 50, site.css.scss */
+  body #footer {
+    font-size: 0px; }
+    /* line 52, site.css.scss */
+    body #footer .logo-container {
+      display: inline-block;
+      width: 14.28%;
+      padding: 10px;
+      box-sizing: border-box; }
+      /* line 57, site.css.scss */
+      body #footer .logo-container img {
+        width: 100%;
+        height: auto;
+        vertical-align: middle; }
 
-/* line 23, site.css.scss */
+/* line 66, site.css.scss */
 .welcome {
-  max-width: 500px;
-  margin: 0 auto; }
-  /* line 26, site.css.scss */
+  width: 100%; }
+  /* line 68, site.css.scss */
   .welcome .logo img {
     height: 18.75em;
     margin-top: 1em; }
-  /* line 30, site.css.scss */
+  /* line 72, site.css.scss */
   .welcome .info {
+    background-image: url("/images/top-photo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
     color: white;
-    font-weight: 300; }
-    /* line 33, site.css.scss */
-    .welcome .info .language-options {
-      margin-bottom: 20px; }
-      /* line 35, site.css.scss */
-      .welcome .info .language-options span {
-        margin: 0px 20px; }
-        /* line 37, site.css.scss */
-        .welcome .info .language-options span.active {
-          font-weight: bold; }
-        /* line 40, site.css.scss */
-        .welcome .info .language-options span:hover {
-          cursor: pointer; }
-    /* line 45, site.css.scss */
-    .welcome .info #info-espanol, .welcome .info #info-english {
-      display: none; }
-      /* line 47, site.css.scss */
-      .welcome .info #info-espanol.active, .welcome .info #info-english.active {
-        display: block; }
-  /* line 52, site.css.scss */
+    font-weight: 300;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box; }
+    /* line 83, site.css.scss */
+    .welcome .info .info-container {
+      margin: 0 auto;
+      max-width: 500px; }
+      /* line 86, site.css.scss */
+      .welcome .info .info-container .title {
+        font-size: 2.5em; }
+      /* line 89, site.css.scss */
+      .welcome .info .info-container .language-options {
+        display: none;
+        margin-bottom: 20px; }
+        /* line 92, site.css.scss */
+        .welcome .info .info-container .language-options span {
+          margin: 0px 20px; }
+          /* line 94, site.css.scss */
+          .welcome .info .info-container .language-options span.active {
+            font-weight: bold; }
+          /* line 97, site.css.scss */
+          .welcome .info .info-container .language-options span:hover {
+            cursor: pointer; }
+      /* line 102, site.css.scss */
+      .welcome .info .info-container #info-espanol, .welcome .info .info-container #info-english {
+        display: none; }
+        /* line 104, site.css.scss */
+        .welcome .info .info-container #info-espanol.active, .welcome .info .info-container #info-english.active {
+          display: block; }
+  /* line 110, site.css.scss */
+  .welcome .information-spacer {
+    width: 100%;
+    height: 300px;
+    background-image: url("/images/photo-6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    box-sizing: border-box;
+    position: relative; }
+    /* line 122, site.css.scss */
+    .welcome .information-spacer .information-spacer-container {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      height: 48px; }
+      /* line 130, site.css.scss */
+      .welcome .information-spacer .information-spacer-container h1 {
+        font-size: 2.5em; }
+  /* line 135, site.css.scss */
+  .welcome .information-participation {
+    width: 100%;
+    height: 500px;
+    font-size: 0em; }
+    /* line 139, site.css.scss */
+    .welcome .information-participation .information-participation-container {
+      display: inline-block;
+      width: 33.33%;
+      height: 500px;
+      font-size: 16px;
+      vertical-align: top;
+      overflow-y: auto; }
+      /* line 146, site.css.scss */
+      .welcome .information-participation .information-participation-container.fact {
+        background: #70ce3d;
+        color: white; }
+        /* line 149, site.css.scss */
+        .welcome .information-participation .information-participation-container.fact .top {
+          background-image: url("/images/info-left.png"); }
+        /* line 152, site.css.scss */
+        .welcome .information-participation .information-participation-container.fact p {
+          font-size: 12px; }
+      /* line 156, site.css.scss */
+      .welcome .information-participation .information-participation-container.poll {
+        color: #074073;
+        text-align: center; }
+        /* line 159, site.css.scss */
+        .welcome .information-participation .information-participation-container.poll .top {
+          background-image: url("/images/info-center.png"); }
+      /* line 163, site.css.scss */
+      .welcome .information-participation .information-participation-container.taller {
+        color: white;
+        text-align: right;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("/images/info-right.png"); }
+        /* line 170, site.css.scss */
+        .welcome .information-participation .information-participation-container.taller .content-container {
+          position: relative;
+          width: 100%;
+          height: 100%; }
+          /* line 174, site.css.scss */
+          .welcome .information-participation .information-participation-container.taller .content-container .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            box-sizing: border-box; }
+      /* line 184, site.css.scss */
+      .welcome .information-participation .information-participation-container .top {
+        width: 100%;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; }
+      /* line 191, site.css.scss */
+      .welcome .information-participation .information-participation-container .content {
+        padding: 10px 25px; }
+        /* line 193, site.css.scss */
+        .welcome .information-participation .information-participation-container .content h2 {
+          margin-top: 0px; }
+  /* line 199, site.css.scss */
+  .welcome .map {
+    background-color: #074073;
+    width: 100%; }
+    /* line 202, site.css.scss */
+    .welcome .map .map-container {
+      font-size: 0;
+      max-width: 900px;
+      margin: 0 auto; }
+      /* line 206, site.css.scss */
+      .welcome .map .map-container img {
+        width: 100%;
+        height: auto; }
+  /* line 212, site.css.scss */
+  .welcome .volunteer {
+    width: 100%;
+    background-image: url("/images/bottom-photo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    box-sizing: border-box; }
+    /* line 222, site.css.scss */
+    .welcome .volunteer .volunteer-container {
+      max-width: 500px;
+      margin: 0 auto; }
+  /* line 227, site.css.scss */
   .welcome .h3-logo {
     margin-top: -45px; }
 
-/* line 58, site.css.scss */
+/* line 233, site.css.scss */
 h1 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8em;
   font-weight: 400;
   margin: 0; }
 
-/* line 65, site.css.scss */
+/* line 240, site.css.scss */
 .doc {
   margin: 3em 0;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   font-weight: 300; }
-  /* line 71, site.css.scss */
+  /* line 246, site.css.scss */
   .doc a {
     border: 1px solid white;
     border-radius: 10px;
@@ -479,7 +654,7 @@ h1 {
     text-decoration: none;
     transition: color 0.1s linear;
     background: none; }
-    /* line 79, site.css.scss */
+    /* line 254, site.css.scss */
     .doc a:hover {
       background: #00adee;
       color: white;
