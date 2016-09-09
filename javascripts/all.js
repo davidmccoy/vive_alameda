@@ -51,15 +51,18 @@ function autoSlides() {
 ////
 // Fact and event slideshows
 ////
-
-var slideIndex = 1;
+var factSlideIndex = 1;
+var eventsSlideIndex = 1;
 var slides;
 var factsSlides;
 var eventsSlides;
-showSlides(slideIndex);
 
 function plusSlides(n, slideshow) {
-  showSlides(slideIndex += n, slideshow);
+  if (slideshow === "facts") {
+    showSlides(factSlideIndex += n, slideshow);
+  } else if (slideshow === "events") {
+    showSlides(eventsSlideIndex += n, slideshow);
+  }
 }
 
 function currentSlide(n) {
@@ -69,23 +72,33 @@ function currentSlide(n) {
 function showSlides(n, slideshow) {
   var i;
   if (slideshow === "facts") {
-    slides = factsSlides;
+    if (factsSlides !== undefined) {
+      if (n > factsSlides.length) {
+        factSlideIndex = 1;
+      } else if (n < 1) {
+        factSlideIndex = factsSlides.length;
+      }
+
+      for (i = 0; i < factsSlides.length; i++) {
+        factsSlides[i].classList.remove('active');
+      }
+      factsSlides[factSlideIndex-1].classList.add('active');
+    }
   } else if (slideshow === "events") {
-    slides = eventsSlides;
+    if (eventsSlides !== undefined) {
+      if (n > eventsSlides.length) {
+        eventsSlideIndex = 1;
+      } else if (n < 1) {
+        eventsSlideIndex = eventsSlides.length;
+      }
+
+      for (i = 0; i < eventsSlides.length; i++) {
+        eventsSlides[i].classList.remove('active');
+      }
+      eventsSlides[eventsSlideIndex-1].classList.add('active');
+    }
   }
 
-  if (slides !== undefined) {
-    if (n > slides.length) {
-      slideIndex = 1;
-    } else if (n < 1) {
-      slideIndex = slides.length;
-    }
-
-    for (i = 0; i < slides.length; i++) {
-      slides[i].classList.remove('active');
-    }
-    slides[slideIndex-1].classList.add('active');
-  }
 }
 
 window.onload = function() {
