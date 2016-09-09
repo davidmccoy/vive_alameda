@@ -10,6 +10,10 @@
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
+    <link rel="icon"
+      type="image/png"
+      href="/favicon.png">
+
     <link href="/stylesheets/site.css" rel="stylesheet" />
     <script src="/javascripts/all.js"></script>
   </head>
@@ -20,6 +24,10 @@
         <img src="/images/logo.png" alt="Logo" />
       </div>
       <div class="social-links">
+        <div class="language-options">
+          <span class="language-option active" id="espanol">ES</span> |
+          <span class="language-option" id="english">EN</span>
+        </div>
         <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.alameda.com.ec" id="facebook-share-link" onclick="return !window.open(this.href, 'Facebook', 'width=500,height=500')" target="_blank">
           <div class="social-link">
             <img src="/images/facebook-icon.png" alt="Facebook icon" />
@@ -44,15 +52,26 @@
     </div>
     <div class="welcome">
   <div class="info">
+    <div class="info-background photo-0 fade active">
+    </div>
+    <div class="info-background photo-1 fade">
+    </div>
+    <div class="info-background photo-2 fade">
+    </div>
+    <div class="info-background photo-3 fade">
+    </div>
+    <div class="info-background photo-4 fade">
+    </div>
+    <div class="info-background photo-5 fade">
+    </div>
     <div class="info-container">
-      <h1 class="title">
+      <h1 class="title active espanol">
         Vive Alameda es un proyecto para HABITAT 3
       </h1>
-      <div class="language-options">
-        <span class="language-option active" id="espanol">Español</span>
-        <span class="language-option" id="english">English</span>
-      </div>
-      <div id="info-espanol" class="active">
+      <h1 class="title english">
+        Vive Alameda is a HABITAT 3 project
+      </h1>
+      <div class="active espanol">
         <p>
           Vive Alameda es un proyecto propuesto por el Instituto Metropolitano de Patrimonio para Habitat Village en coordinación con otras entidades municipales e internacionales que busca motivar la participación ciudadana en la identificación y puesta en valor de elementos del patrimonio material e inmaterial del barrio “La Alameda”, como herramientas para el desarrollo sustentable.
         </p>
@@ -60,29 +79,29 @@
           Te invitamos a unirte al proyecto como voluntario (te puedes registrar aquí!) y a participar en talleres, encuestas, eventos, y a través de esta página web durante los próximos 4 meses. Nuestro trabajo contará con la participación de expertos nacionales e internacionales en patrimonio y desarrollo urbano, y concluirá con un evento en el cual la participación ciudadana será indispensable.
         </p>
       </div>
-      <div id="info-english">
+      <div class="english">
         <p>
           Vive Alameda is a Habitat Village Project that seeks to work along with the community in order to identify valuable heritage elements within the neighborhood – tangible and intangible – and to explore how to transform those elements into tools for urban sustainable development. The project is in the hands of the Metropolitan Institute of Heritage, who is working in coordination with other municipal agencies and US/ICOMOS.
         </p>
         <p>
           Everybody is invited to participate in the project as either a volunteer (you can register as one here!) or as part of the community in workshops, interviews, events, and through this web site for the next 4 months. Our work will also count with the participation of national and international experts in heritage and urban development, and it will end with an event in which community and volunteer´s participation will be essential.
         </p>
-        <p>
-          Join us and help us build this project! Don´t forget to visit this site for it will update constantly with your help!
-        </p>
-        <p>
-          <strong>JOIN VIVE ALAMEDA!</strong>
-        </p>
       </div>
     </div>
   </div>
   <div class="information-spacer">
     <div class="information-spacer-container">
-      <h1>
+      <h1 class="active espanol">
         INFÓRMATE Y PARTICIPA
       </h1>
-      <h3>
+      <h1 class="english">
+        GET INFORMED AND INVOLVED
+      </h1>
+      <h3 class="active espanol">
         Comparte tus fotos del barrio con el hashtag
+      </h3>
+      <h3 class="english">
+        Share your photos of the neighborhood with the hashtag
       </h3>
       <h1>
         #vivealameda
@@ -90,21 +109,187 @@
     </div>
   </div>
   <div class="information-participation">
-    <div class="information-participation-container fact">
+    <div class="information-participation-container facts">
       <div class="top">
       </div>
-      <div class="content">
+      <div class="content active fact fact-1">
         <h2 class="fact-header">
           ALAMEDA FACT #1
         </h2>
-        <div class="fact-container">
-          <p>
-            <b>Sabias que…</b>
-          </p>
-          <p>
-            El sector donde hoy se asienta el barrio de La Alameda y su parque era conocido por los habitantes originarios de la zona como “Chuquihuada” (punta de lanza), debido a la forma triangular de la planicie de terreno que el parque ocupa hasta hoy.
-          </p>
+        <div class="fact active espanol">
+          <div class="fact-container">
+            <p>
+              <b>Sabias que…</b>
+            </p>
+            <p>
+              El sector donde hoy se asienta el barrio de La Alameda y su parque era conocido por los habitantes originarios de la zona como “Chuquihuada” (punta de lanza), debido a la forma triangular de la planicie de terreno que el parque ocupa hasta hoy.
+            </p>
+          </div>
         </div>
+        <div class="fact english">
+          <div class="fact-container">
+            <p>
+              <b>Did you know…</b>
+            </p>
+            <p>
+              The area in which La Alameda neighborhood and park are located was known by the original inhabitants of the city as “Chuquihuada” (spear tip), due to the triangular shape of the plain in which the park is located until today.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content fact fact-2">
+        <h2 class="fact-header">
+          ALAMEDA FACT #2
+        </h2>
+        <div class="fact active espanol">
+          <div class="fact-container">
+            <p>
+              <b>Sabias que…</b>
+            </p>
+            <p>
+              Durante la época colonial, el sector fue conocido como “Los Potreros del Rey,” y su nombre actual, ALAMEDA, es el nombre con el cual se conocía a los paseos con álamos u otro tipo de árboles a las afueras de las ciudades europeas. Una mezcla de plaza, parque y avenida.
+            </p>
+          </div>
+        </div>
+        <div class="fact english">
+          <div class="fact-container">
+            <p>
+              <b>Did you know…</b>
+            </p>
+            <p>
+              During colonial times, the neighborhood was known as “The King's Paddocks,” and its current name, ALAMEDA, is the name formerly used for pedestrian walks shaded with poplar trees or other kinds of trees in the outskirts of European cities; a mixture of square, park and avenue.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content fact fact-3">
+        <h2 class="fact-header">
+          ALAMEDA FACT #3
+        </h2>
+        <div class="fact active espanol">
+          <div class="fact-container">
+            <p>
+              <b>Sabias que…</b>
+            </p>
+            <p>
+              En el sector del extremo nororiental del parque La Alameda, en 1887, se concluyó la construcción del primer jardín botánico de Quito; luego este edificio hecho totalmente de madera se convirtió en la Escuela de Bellas Artes hasta que un incendio acabó con la estructura.
+            </p>
+          </div>
+        </div>
+        <div class="fact english">
+          <div class="fact-container">
+            <p>
+              <b>Did you know…</b>
+            </p>
+            <p>
+              The first Botanical Garden in Quito was built in the northeastern part of Alameda Park in 1887; after some time this building, all made in wood, became the city's Beaux Arts School until a fire destroyed its structure.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content fact fact-4">
+        <h2 class="fact-header">
+          ALAMEDA FACT #4
+        </h2>
+        <div class="fact active espanol">
+          <div class="fact-container">
+            <p>
+              <b>Sabias que…</b>
+            </p>
+            <p>
+              El 18 de febrero de 1546, en los alrededores del parque, se enfrentaron las tropas de Gonzalo Pizarro y los soldados del Virrey Blasco Núñez De Vela; allí se desconoció la administración española con la derrota del Virrey y su decapitación en el campo de batalla, con un solo golpe de sable.
+            </p>
+          </div>
+        </div>
+        <div class="fact english">
+          <div class="fact-container">
+            <p>
+              <b>Did you know…</b>
+            </p>
+            <p>
+              On February 18th of 1546, in the areas surrounding Alameda Park, Gonzalo Pizarro's troops fought against the army of the Viceroy Blasco Núñez De Vela; this was the moment in which the city overpowered the Spanish administration by defeating the viceroy´s army and by decapitating him on site.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content fact fact-5">
+        <h2 class="fact-header">
+          ALAMEDA FACT #5
+        </h2>
+        <div class="fact active espanol">
+          <div class="fact-container">
+            <p>
+              <b>Sabias que…</b>
+            </p>
+            <p>
+              La Alameda es considerado como el parque más antiguo de Quito y el primero en haber sido diseñado, a partir del 08 de marzo de 1596 y por iniciativa de Francisco de Sotomayor, para que españoles y criollos tuviesen un espacio de recreo.
+            </p>
+          </div>
+        </div>
+        <div class="fact english">
+          <div class="fact-container">
+            <p>
+              <b>Did you know…</b>
+            </p>
+            <p>
+              Alameda Park is considered the oldest park in Quito and that it was the first park to be designed starting on March 8th of 1596 by initiative of Francisco de Sotomayor, so that Spanish people and their descent could have a new recreational space.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content fact fact-6">
+        <h2 class="fact-header">
+          ALAMEDA FACT #6
+        </h2>
+        <div class="fact active espanol">
+          <div class="fact-container">
+            <p>
+              <b>Sabias que…</b>
+            </p>
+            <p>
+              Entre 1873 y 1877 se construyó el Observatorio Astronómico de Quito, uno de los más antiguos de América Latina, en La Alameda, con un diseño basado en el observatorio de  la ciudad de Bonn, Alemania y que actualmente sigue funcionando, bajo la dirección de  la Escuela Politécnica Nacional.
+            </p>
+          </div>
+        </div>
+        <div class="fact english">
+          <div class="fact-container">
+            <p>
+              <b>Did you know…</b>
+            </p>
+            <p>
+              Between 1873 and 1877, Quito's first Astronomical Observatory, one of the oldest in Latin America, was built in Alameda based on the design of the observatory in the city of Bonn, Germany; and that it is still working and open to the public under the supervision of the National Polytechnic School.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content fact fact-7">
+        <h2 class="fact-header">
+          ALAMEDA FACT #7
+        </h2>
+        <div class="fact active espanol">
+          <div class="fact-container">
+            <p>
+              <b>Sabias que…</b>
+            </p>
+            <p>
+              El monumento a Simón Bolívar del parque de La Alameda fue inaugurado en julio de 1935 por el Presidente José María Velasco Ibarra tras participar en un concurso desarrollado en Paris, en 1929,  para encontrar el mejor proyecto para la construcción de un monumento en homenaje al “Libertador”.
+            </p>
+          </div>
+        </div>
+        <div class="fact english">
+          <div class="fact-container">
+            <p>
+              <b>Did you know…</b>
+            </p>
+            <p>
+              The monument of Simon Bolívar in Alameda Park was inaugurated in July of 1935 by the President José María Velasco Ibarra as consequence of a contest organized in Paris in order to find the best project for the construction of a monument dedicated to “Bolívar, el Libertador” in 1929.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="facts-nav">
+        <a class="prev arrow" onclick="plusSlides(-1, 'facts')">&#10094;</a>
+        <a class="next arrow" onclick="plusSlides(1, 'facts')">&#10095;</a>
       </div>
     </div>
     <div class="information-participation-container poll">
@@ -114,32 +299,461 @@
         <h2>
           ¡ALAMEDA POLL!
         </h2>
-        <!-- Change the width and height values to suit you best -->
-<div class="typeform-widget" data-url="https://david945.typeform.com/to/CWtjpA" data-text="Alameda Poll" style="width:100%;height:335px;"></div>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+        <p class="doc active espanol poll">
+          <a class="typeform-share button" href="https://david945.typeform.com/to/CWtjpA" data-mode="1" target="_blank">
+            CUÉNTANOS: Tu...
+          </a>
+        </p>
+        <p class="doc english poll">
+          <a class="typeform-share button" href="https://david945.typeform.com/to/CWtjpA" data-mode="1" target="_blank">
+            Tell us: You...
+          </a>
+        </p>
       </div>
     </div>
     <div class="information-participation-container taller">
       <div class="content-container">
-        <div class="content">
-          <h2>
-            PRIMER TALLER CON LA COMUNIDAD
-          </h2>
-          <p>
-            26 de JULIO 2016
-          </p>
-          <p>
-            17H30-19H00
-          </p>
-          <p>
-            Conversación con líderes de la comunidad sobre el proyecto VIVA ALAMEDA.
-          </p>
-          <p>
-            OFICINAS DEL LINQ - CENTRO DE ARTE CONTEMPORÁNEO
-            <span>
-              (Antiguo Hospital Militar)
-            </span>
-          </p>
+        <div class="content event event-1 active">
+          <div class="event-content active espanol">
+            <h2>
+              PRIMER TALLER CON LA COMUNIDAD
+            </h2>
+            <p>
+              26 de JULIO 2016
+            </p>
+            <p>
+              17H30-19H00
+            </p>
+            <p>
+              Conversación con líderes de la comunidad sobre el proyecto VIVE ALAMEDA.
+            </p>
+            <p>
+              OFICINAS DEL LINQ - CENTRO DE ARTE CONTEMPORÁNEO
+              <span>
+                (Antiguo Hospital Militar)
+              </span>
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              FIRST COMMUNITY WORKSHOP
+            </h2>
+            <p>
+              JUNE 27th, 2016
+            </p>
+            <p>
+              17H30-19H00
+            </p>
+            <p>
+              Dialogue with community leaders about the project VIVE ALAMEDA.
+            </p>
+            <p>
+              OFICINAS DEL LINQ - CENTRO DE ARTE CONTEMPORÁNEO
+              <span>
+                (Antiguo Hospital Militar)
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="content event event-2">
+          <div class="event-content active espanol">
+            <h2>
+              PRIMERA CHARLA DE VOLUNTARIOS
+            </h2>
+            <p>
+              21 de JULIO de 2016
+            </p>
+            <p>
+              17H30-19H00
+            </p>
+            <p>
+              Taller de capacitación de voluntarios registrados del proyecto.
+            </p>
+            <p>
+              OFICINAS DEL IMP
+              <span>
+                (Garcia Moreno N7-28 y Manabí)
+              </span>
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              FIRST VOLUNTEERS WORKSHOP
+            </h2>
+            <p>
+              JULY 21st, 2016
+            </p>
+            <p>
+              17H30-19H00
+            </p>
+            <p>
+              Workshop with volunteers about the project VIVE ALAMEDA.
+            </p>
+            <p>
+              OFICINAS DEL LINQ - CENTRO DE ARTE CONTEMPORÁNEO
+              <span>
+                (Antiguo Hospital Militar)
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="content event event-3">
+          <div class="event-content active espanol">
+            <h2>
+              SEGUNDO TALLER CON LA COMUNIDAD
+            </h2>
+            <p>
+              26 de JULIO de 2016
+            </p>
+            <p>
+              17H30-19H00
+            </p>
+            <p>
+              Taller de identificación de elementos de valor con líderes de la comunidad.
+            </p>
+            <p>
+              OFICINAS DE LINQ - CENTRO DE ARTE CONTEMPORÁNEO
+              <span>
+                (Antiguo Hospital Militar)
+              </span>
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              SECOND COMMUNITY WORKSHOP
+            </h2>
+            <p>
+              JULY 26th, 2016
+            </p>
+            <p>
+              17H30-19H00
+            </p>
+            <p>
+              Wokshop to identify heritage and identity elements with community leaders.
+            </p>
+            <p>
+              OFICINAS DEL LINQ - CENTRO DE ARTE CONTEMPORÁNEO
+              <span>
+                (Antiguo Hospital Militar)
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="content event event-4">
+          <div class="event-content active espanol">
+            <h2>
+              SEGUNDA CHARLA DE VOLUNTARIOS
+            </h2>
+            <p>
+              8 de AGOSTO de 2016
+            </p>
+            <p>
+              09H00-10H00
+            </p>
+            <p>
+              Taller de capacitación para toma de encuestas y reconocimiento de actores.
+            </p>
+            <p>
+              OFICINAS DEL IMP
+              <span>
+                (Garcia Moreno N7-28 y Manabí)
+              </span>
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              SECOND VOLUNTEERS WORKSHOP
+            </h2>
+            <p>
+              AUGUST 8th, 2016
+            </p>
+            <p>
+              09H00-10H00
+            </p>
+            <p>
+              Workshop with volunteers about surveying the neighborhood.
+            </p>
+            <p>
+              OFICINAS DEL IMP
+              <span>
+                (Garcia Moreno N7-28 y Manabí)
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="content event event-5">
+          <div class="event-content active espanol">
+            <h2>
+              TOMA DE ENCUESTAS EN EL BARRIO
+            </h2>
+            <p>
+              8 y 11 de AGOSTO de 2016
+            </p>
+            <p>
+              10H30-16H00
+            </p>
+            <p>
+              Levantamiento de encuestas en el barrio con residentes y visitantes.
+            </p>
+            <p>
+              BARRIO LA ALAMEDA
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              SURVEYING THE NEIGHBORHOOD
+            </h2>
+            <p>
+              AUGUST 8th and 11th, 2016
+            </p>
+            <p>
+              10H30-16H00
+            </p>
+            <p>
+              Interviews with community members and pedestrians in the neighborhood.
+            </p>
+            <p>
+              LA ALAMEDA NEIGHBORHOOD
+            </p>
+          </div>
+        </div>
+        <div class="content event event-6">
+          <div class="event-content active espanol">
+            <h2>
+              ACTIVACIÓN EN EL BARRIO Y TOMA DE ENCUESTAS
+            </h2>
+            <p>
+              27 de AGOSTO de 2016
+            </p>
+            <p>
+              10H00-14H00
+            </p>
+            <p>
+              Múltiples actividades en el barrio para compartir el proyecto e identificar elementos.
+            </p>
+            <p>
+              BARRIO LA ALAMEDA
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              NEIGHBORHOOD PARTY AND SURVEY
+            </h2>
+            <p>
+              AUGUST 27th, 2016
+            </p>
+            <p>
+              10H00-14H00
+            </p>
+            <p>
+              Activities in the neighborhood and with the community.
+            </p>
+            <p>
+              LA ALAMEDA NEIGHBORHOOD
+            </p>
+          </div>
+        </div>
+        <div class="content event event-7">
+          <div class="event-content active espanol">
+            <h2>
+              TERCER TALLER CON LA COMUNIDAD
+            </h2>
+            <p>
+              30 de AGOSTO de 2016
+            </p>
+            <p>
+              17H30-19H30
+            </p>
+            <p>
+              Taller de identificación de elementos de valor con residentes y líderes del barrio.
+            </p>
+            <p>
+              CASONA DE ALAMEDA
+              <span>
+                (Av. Gran Colombia y Antonio de Elizalde)
+              </span>
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              THIRD COMMUNITY WORKSHOP
+            </h2>
+            <p>
+              AUGUST 30th, 2016
+            </p>
+            <p>
+              17H30-19H30
+            </p>
+            <p>
+              Wokshop to identify heritage and identity elements with community leaders and  residents.
+            </p>
+            <p>
+              CASONA DE ALAMEDA
+              <span>
+                (Av. Gran Colombia y Antonio de Elizalde)
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="content event event-8">
+          <div class="event-content active espanol">
+            <h2>
+              PRIMER TALLER CON NIÑOS
+            </h2>
+            <p>
+              TBD
+            </p>
+            <p>
+              TBD
+            </p>
+            <p>
+              Taller de identificación de elementos de valor con niños y niñas de escuelas locales y residentes
+            </p>
+            <p>
+              BARRIO LA ALAMEDA
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              FIRST CHILDREN WORKSHOP
+            </h2>
+            <p>
+              TBD
+            </p>
+            <p>
+              TBD
+            </p>
+            <p>
+              Wokshop to identify heritage and identity elements with children from the neighborhood.
+            </p>
+            <p>
+              LA ALAMEDA NEIGHBORHOOD
+            </p>
+          </div>
+        </div>
+        <div class="content event event-9">
+          <div class="event-content active espanol">
+            <h2>
+              PRIMER TALLER DE JÓVENES Y ESTUDIANTES
+            </h2>
+            <p>
+              TBD
+            </p>
+            <p>
+              TBD
+            </p>
+            <p>
+              Taller de identificación de elementos de valor con estudiantes, jóvenes y estudiantes universitarios
+            </p>
+            <p>
+              UNIVERSIDAD CENTRAL – FACULTAD DE MEDICINA
+              <span>
+                (Iquique y Luis Sodiro)
+              </span>
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              FIRST STUDENTS WORKSHOP
+            </h2>
+            <p>
+              TBD
+            </p>
+            <p>
+              TBD
+            </p>
+            <p>
+              Wokshop to identify heritage and identity elements with university students and young residents.
+            </p>
+            <p>
+              UNIVERSIDAD CENTRAL – SCHOOL OF MEDICINE
+              <span>
+                (Iquique y Luis Sodiro)
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="content event event-10">
+          <div class="event-content active espanol">
+            <h2>
+              SEMANA DE EXHIBICIÓN DEL PROYECTO
+            </h2>
+            <p>
+              17 – 20 de OCTUBRE de 2016
+            </p>
+            <p>
+              10H00-16H00
+            </p>
+            <p>
+              Diferentes eventos organizados por la comunidad y los residentes para mostrar el barrio en la semana de Habitat III.
+            </p>
+            <p>
+              BARRIO LA ALAMEDA
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              EXHIBITION WEEK
+            </h2>
+            <p>
+              OCTOBER 17th to 20th, 2016
+            </p>
+            <p>
+              10H00-16H00
+            </p>
+            <p>
+              Multiple events organized by the community to showcase the neighborhood during the Habitat III week.
+            </p>
+            <p>
+              LA ALAMEDA NEIGHBORHOOD
+            </p>
+          </div>
+        </div>
+        <div class="content event event-11">
+          <div class="event-content active espanol">
+            <h2>
+              EVENTO DE CLAUSURA DEL PROYECTO
+            </h2>
+            <p>
+              20 de OCTUBRE de 2016
+            </p>
+            <p>
+              10H00-20H00
+            </p>
+            <p>
+              Evento de participación ciudadana en donde habrá charlas, conversatorios con expertos y ciudadanos y espacios para el diálogo
+            </p>
+            <p>
+              TEATRO CAPITOL
+              <span>
+                (Av. 12 de octubre, entre Ramón Egas y Julio Castro)
+              </span>
+            </p>
+          </div>
+          <div class="event-content english">
+            <h2>
+              CLOSURE EVENT
+            </h2>
+            <p>
+              OCTOBER 20th, 2016
+            </p>
+            <p>
+              10H00-20H00
+            </p>
+            <p>
+              Charrette and party with the neighborhood to talk about the project and the development of the neighborhood.
+            </p>
+            <p>
+              TEATRO CAPITOL
+              <span>
+                (Av. 12 de octubre, entre Ramón Egas y Julio Castro)
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="events-nav">
+          <a class="prev arrow" onclick="plusSlides(-1, 'events')">&#10094;</a>
+          <a class="next arrow" onclick="plusSlides(1, 'events')">&#10095;</a>
         </div>
       </div>
     </div>
@@ -154,7 +768,7 @@
       <div class="logo">
         <img src="/images/logo.png" alt="Logo" />
       </div>
-      <div id="info-espanol" class="active">
+      <div class="active espanol">
         <p>
           ¡Anímate y sé parte de la construcción de esta página que se actualizará constantemente gracias a tu aporte!
         </p>
@@ -162,14 +776,26 @@
           <strong>¡ESPERAMOS CONTAR CON TU PARTICIPACIÓN!</strong>
         </p>
       </div>
-      <p class="doc">
+      <div class="english">
+        <p>
+          Join us and help us build this project and don´t forget to visit this site for it will update constantly with your help!
+        </p>
+        <p>
+          <strong>WE ARE COUNTING ON YOU!</strong>
+        </p>
+      </div>
+      <p class="doc active espanol volunteer">
         <a class="typeform-share button" href="https://david945.typeform.com/to/lAzNB6" data-mode="1" target="_blank">Aplica para ser voluntario :)</a>
+      </p><!-- .doc -->
+      <p class="doc english">
+        <a class="typeform-share button" href="https://david945.typeform.com/to/lAzNB6" data-mode="1" target="_blank">Apply to volunteer :)</a>
       </p><!-- .doc -->
     </div>
   </div>
 </div><!-- .welcome -->
 
 <script>
+// volunteer typeform
 (function(){
   var qs,
       js,
@@ -194,6 +820,37 @@
       qs.rel='stylesheet';
       qs.id=id;
       // s.appendChild(s);
+    }
+  })()
+</script>
+<script>
+  // survey typeform
+  (function(){
+    var qs,
+    js,
+    q,
+    s,
+    d=document,
+    gi=d.getElementById,
+    ce=d.createElement,
+    gt=d.getElementsByTagName,
+    id='typef_orm',
+    b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+    if(!gi.call(d,id)){
+      js=ce.call(d,'script');
+      js.id=id;
+      js.src=b+'share.js';
+      q=gt.call(d,'script')[0];
+      q.parentNode.insertBefore(js,q)
+    }
+    id=id+'_';
+    if(!gi.call(d,id)){
+      qs=ce.call(d,'link');
+      qs.rel='stylesheet';
+      qs.id=id;
+      qs.href=b+'share-button.css';
+      s=gt.call(d,'head')[0];
+      // s.appendChild(qs,s)
     }
   })()
 </script>
@@ -224,7 +881,7 @@
         </a>
         <a href="http://gobiernoabierto.quito.gob.ec/" target="_blank">
           <div class="logo-container">
-            <img src="/images/logo-planificacion.png" alt="Logo planificacion" />
+            <img src="/images/logo-planificacion.png" class="small" alt="Logo planificacion" />
           </div>
         </a>
         <a href="http://linq.quito.gob.ec/" target="_blank">
@@ -234,10 +891,19 @@
         </a>
         <a href="http://www.icomos.org/" target="_blank">
           <div class="logo-container">
-            <img src="/images/logo-icomos.png" alt="Logo icomos" />
+            <img src="/images/logo-icomos.png" class="small" alt="Logo icomos" />
           </div>
         </a>
       </div>
     </div>
   </body>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-83858311-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </html>
