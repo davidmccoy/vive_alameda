@@ -404,97 +404,415 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/* line 4, site.css.scss */
+/* line 2, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+.about .title-container {
+  width: 100%;
+  height: 700px;
+  background-color: #ff9000;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding: 25px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -2; }
+  /* line 13, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+  .about .title-container .title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 86px;
+    font-size: 2.5em; }
+/* line 24, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+.about .info {
+  width: 100%;
+  height: 750px;
+  padding: 25px;
+  box-sizing: border-box; }
+  /* line 29, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+  .about .info .info-container {
+    max-width: 850px;
+    font-size: 0;
+    margin: 0 auto; }
+    /* line 33, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+    .about .info .info-container .info-left, .about .info .info-container .info-right {
+      display: inline-block;
+      width: 50%;
+      height: 700px;
+      font-size: 14px;
+      vertical-align: top;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: justify;
+      color: #003c75; }
+      /* line 43, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+      .about .info .info-container .info-left .logos, .about .info .info-container .info-right .logos {
+        text-align: center; }
+        /* line 46, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+        .about .info .info-container .info-left .logos .sponsors a, .about .info .info-container .info-right .logos .sponsors a {
+          display: inline-block;
+          margin: 0px 10px; }
+          /* line 50, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+          .about .info .info-container .info-left .logos .sponsors a .habitat img, .about .info .info-container .info-right .logos .sponsors a .habitat img {
+            width: 164px;
+            height: 97px; }
+          /* line 56, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+          .about .info .info-container .info-left .logos .sponsors a .habitat-circle img, .about .info .info-container .info-right .logos .sponsors a .habitat-circle img {
+            width: 98px;
+            height: 97px; }
+        /* line 63, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+        .about .info .info-container .info-left .logos .logo, .about .info .info-container .info-right .logos .logo {
+          margin: 20px 0px; }
+          /* line 65, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+          .about .info .info-container .info-left .logos .logo img, .about .info .info-container .info-right .logos .logo img {
+            width: 315px;
+            height: 201px; }
+
+/* line 2, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+.learn-more .title-container {
+  width: 100%;
+  height: 700px;
+  background-color: #00acf2;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding: 25px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -2; }
+  /* line 13, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+  .learn-more .title-container .title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 86px;
+    font-size: 2.5em; }
+/* line 24, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+.learn-more .info {
+  width: 100%;
+  height: 750px;
+  padding: 25px;
+  box-sizing: border-box; }
+  /* line 29, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+  .learn-more .info .info-container {
+    max-width: 850px;
+    font-size: 0;
+    margin: 0 auto; }
+    /* line 33, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+    .learn-more .info .info-container .info-left, .learn-more .info .info-container .info-right {
+      display: inline-block;
+      width: 50%;
+      height: 700px;
+      font-size: 14px;
+      vertical-align: top;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: justify;
+      color: #003c75; }
+      /* line 43, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+      .learn-more .info .info-container .info-left .logos, .learn-more .info .info-container .info-right .logos {
+        text-align: center; }
+        /* line 46, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+        .learn-more .info .info-container .info-left .logos .sponsors a, .learn-more .info .info-container .info-right .logos .sponsors a {
+          display: inline-block;
+          margin: 0px 10px; }
+          /* line 50, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+          .learn-more .info .info-container .info-left .logos .sponsors a .habitat img, .learn-more .info .info-container .info-right .logos .sponsors a .habitat img {
+            width: 164px;
+            height: 97px; }
+          /* line 56, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+          .learn-more .info .info-container .info-left .logos .sponsors a .habitat-circle img, .learn-more .info .info-container .info-right .logos .sponsors a .habitat-circle img {
+            width: 98px;
+            height: 97px; }
+        /* line 63, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+        .learn-more .info .info-container .info-left .logos .logo, .learn-more .info .info-container .info-right .logos .logo {
+          margin: 20px 0px; }
+          /* line 65, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
+          .learn-more .info .info-container .info-left .logos .logo img, .learn-more .info .info-container .info-right .logos .logo img {
+            width: 315px;
+            height: 201px; }
+
+/* line 2, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+.gallery .title-container {
+  width: 100%;
+  height: 700px;
+  background-color: #70ce3d;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding: 25px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -2; }
+  /* line 13, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+  .gallery .title-container .title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 86px;
+    font-size: 2.5em; }
+/* line 24, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+.gallery .info {
+  width: 100%;
+  height: 750px;
+  padding: 25px;
+  box-sizing: border-box; }
+  /* line 29, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+  .gallery .info .info-container {
+    max-width: 850px;
+    font-size: 0;
+    margin: 0 auto; }
+    /* line 33, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+    .gallery .info .info-container .info-left, .gallery .info .info-container .info-right {
+      display: inline-block;
+      width: 50%;
+      height: 700px;
+      font-size: 14px;
+      vertical-align: top;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: justify;
+      color: #003c75; }
+      /* line 43, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .info .info-container .info-left .logos, .gallery .info .info-container .info-right .logos {
+        text-align: center; }
+        /* line 46, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+        .gallery .info .info-container .info-left .logos .sponsors a, .gallery .info .info-container .info-right .logos .sponsors a {
+          display: inline-block;
+          margin: 0px 10px; }
+          /* line 50, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+          .gallery .info .info-container .info-left .logos .sponsors a .habitat img, .gallery .info .info-container .info-right .logos .sponsors a .habitat img {
+            width: 164px;
+            height: 97px; }
+          /* line 56, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+          .gallery .info .info-container .info-left .logos .sponsors a .habitat-circle img, .gallery .info .info-container .info-right .logos .sponsors a .habitat-circle img {
+            width: 98px;
+            height: 97px; }
+        /* line 63, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+        .gallery .info .info-container .info-left .logos .logo, .gallery .info .info-container .info-right .logos .logo {
+          margin: 20px 0px; }
+          /* line 65, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+          .gallery .info .info-container .info-left .logos .logo img, .gallery .info .info-container .info-right .logos .logo img {
+            width: 315px;
+            height: 201px; }
+
+/* line 2, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+.events .title-container {
+  width: 100%;
+  height: 700px;
+  background-color: red;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding: 25px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -2; }
+  /* line 13, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+  .events .title-container .title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 86px;
+    font-size: 2.5em; }
+/* line 24, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+.events .info {
+  width: 100%;
+  height: 750px;
+  padding: 25px;
+  box-sizing: border-box; }
+  /* line 29, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+  .events .info .info-container {
+    max-width: 850px;
+    font-size: 0;
+    margin: 0 auto; }
+    /* line 33, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+    .events .info .info-container .info-left, .events .info .info-container .info-right {
+      display: inline-block;
+      width: 50%;
+      height: 700px;
+      font-size: 14px;
+      vertical-align: top;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: justify;
+      color: #003c75; }
+      /* line 43, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+      .events .info .info-container .info-left .logos, .events .info .info-container .info-right .logos {
+        text-align: center; }
+        /* line 46, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+        .events .info .info-container .info-left .logos .sponsors a, .events .info .info-container .info-right .logos .sponsors a {
+          display: inline-block;
+          margin: 0px 10px; }
+          /* line 50, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+          .events .info .info-container .info-left .logos .sponsors a .habitat img, .events .info .info-container .info-right .logos .sponsors a .habitat img {
+            width: 164px;
+            height: 97px; }
+          /* line 56, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+          .events .info .info-container .info-left .logos .sponsors a .habitat-circle img, .events .info .info-container .info-right .logos .sponsors a .habitat-circle img {
+            width: 98px;
+            height: 97px; }
+        /* line 63, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+        .events .info .info-container .info-left .logos .logo, .events .info .info-container .info-right .logos .logo {
+          margin: 20px 0px; }
+          /* line 65, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+          .events .info .info-container .info-left .logos .logo img, .events .info .info-container .info-right .logos .logo img {
+            width: 315px;
+            height: 201px; }
+
+/* line 14, site.css.scss */
 html {
   height: 100%;
   width: 100%; }
 
-/* line 9, site.css.scss */
+/* line 19, site.css.scss */
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   color: black; }
-  /* line 13, site.css.scss */
+  /* line 23, site.css.scss */
   body.index {
     padding: 0px; }
-  /* line 16, site.css.scss */
+  /* line 26, site.css.scss */
   body .english, body .espanol {
     display: none; }
-    /* line 18, site.css.scss */
+    /* line 28, site.css.scss */
     body .english.active, body .espanol.active {
       display: block; }
-  /* line 22, site.css.scss */
+  /* line 32, site.css.scss */
+  body .shadow {
+    text-shadow: 1px 1px 1px black; }
+  /* line 35, site.css.scss */
+  body .header-shadow {
+    text-shadow: 3px 3px 3px black; }
+  /* line 38, site.css.scss */
   body #header {
     background-color: #003c75;
     width: 100%;
     height: 60px;
     position: relative; }
-    /* line 27, site.css.scss */
-    body #header .header-logo {
-      height: 60px;
+    /* line 43, site.css.scss */
+    body #header #nav {
+      width: 31px;
+      height: 29px;
       position: absolute;
       left: 25px;
       top: 0;
       bottom: 0;
       margin: auto; }
-      /* line 34, site.css.scss */
-      body #header .header-logo img {
-        width: 84px;
-        height: 60px; }
-    /* line 39, site.css.scss */
+      /* line 51, site.css.scss */
+      body #header #nav:hover {
+        cursor: pointer; }
+      /* line 55, site.css.scss */
+      body #header #nav.visible ul.active {
+        display: block; }
+      /* line 59, site.css.scss */
+      body #header #nav img {
+        width: 31px;
+        height: 29px; }
+      /* line 63, site.css.scss */
+      body #header #nav ul {
+        display: none;
+        list-style: none;
+        padding: 0px;
+        width: 170px;
+        position: absolute;
+        margin: 0px;
+        top: 44px;
+        left: -25px; }
+        /* line 72, site.css.scss */
+        body #header #nav ul a {
+          text-decoration: none; }
+        /* line 75, site.css.scss */
+        body #header #nav ul li {
+          width: 125px;
+          padding: 15px 30px;
+          color: white; }
+          /* line 79, site.css.scss */
+          body #header #nav ul li.about {
+            background: #ff9000; }
+          /* line 82, site.css.scss */
+          body #header #nav ul li.learn-more {
+            background: #00acf2; }
+          /* line 85, site.css.scss */
+          body #header #nav ul li.gallery {
+            background: #70ce3d; }
+          /* line 88, site.css.scss */
+          body #header #nav ul li.events {
+            background: red; }
+          /* line 91, site.css.scss */
+          body #header #nav ul li.home {
+            background: #003c75; }
+    /* line 97, site.css.scss */
     body #header .social-links {
-      height: 35px;
+      height: 29px;
       position: absolute;
       right: 25px;
       top: 0;
       bottom: 0;
       margin: auto; }
-      /* line 46, site.css.scss */
+      /* line 104, site.css.scss */
       body #header .social-links a {
         display: inline-block;
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
         vertical-align: middle;
         margin-right: 15px; }
-      /* line 53, site.css.scss */
+        /* line 110, site.css.scss */
+        body #header .social-links a img {
+          width: 25px;
+          height: 25px; }
+      /* line 115, site.css.scss */
       body #header .social-links .language-options {
         display: inline-block;
         margin-right: 15px;
         font-size: 1.5em;
         vertical-align: middle;
         color: white; }
-        /* line 62, site.css.scss */
+        /* line 124, site.css.scss */
         body #header .social-links .language-options span:hover {
           cursor: pointer; }
-      /* line 67, site.css.scss */
+      /* line 129, site.css.scss */
       body #header .social-links .social-link {
         width: 35px;
         height: 35px; }
-  /* line 73, site.css.scss */
+  /* line 135, site.css.scss */
   body #footer {
     text-align: center;
     font-size: 0px;
     margin-top: 10px; }
-    /* line 77, site.css.scss */
+    /* line 139, site.css.scss */
     body #footer .sponsors {
       text-align: center; }
-      /* line 79, site.css.scss */
+      /* line 144, site.css.scss */
       body #footer .sponsors.left {
         display: inline-block; }
-      /* line 83, site.css.scss */
+      /* line 148, site.css.scss */
       body #footer .sponsors.top .logo-container {
         height: 85px;
         margin: 0 20px; }
-      /* line 89, site.css.scss */
+      /* line 154, site.css.scss */
       body #footer .sponsors.bottom .logo-container {
         height: 75px; }
-      /* line 93, site.css.scss */
+      /* line 158, site.css.scss */
       body #footer .sponsors.right {
         display: inline-block;
         border-left: 1px solid #003c75;
         padding-left: 30px;
         vertical-align: top; }
-        /* line 98, site.css.scss */
+        /* line 163, site.css.scss */
         body #footer .sponsors.right h3 {
           height: 30px;
           color: #003c75;
@@ -502,37 +820,33 @@ body {
           text-align: left;
           margin-bottom: 0;
           margin-top: 0; }
-        /* line 106, site.css.scss */
+        /* line 171, site.css.scss */
         body #footer .sponsors.right .logo-container {
           height: 130px;
           padding-top: 0;
           padding-left: 0; }
-      /* line 112, site.css.scss */
+      /* line 177, site.css.scss */
       body #footer .sponsors .logo-container {
         display: inline-block;
         padding: 10px;
         box-sizing: border-box; }
-        /* line 116, site.css.scss */
+        /* line 181, site.css.scss */
         body #footer .sponsors .logo-container img {
           width: auto;
           height: 100%;
           vertical-align: middle; }
-          /* line 120, site.css.scss */
+          /* line 185, site.css.scss */
           body #footer .sponsors .logo-container img.small {
             height: 60%; }
 
-/* line 129, site.css.scss */
+/* line 194, site.css.scss */
 .welcome {
   width: 100%; }
-  /* line 131, site.css.scss */
-  .welcome .logo img {
-    height: 18.75em;
-    margin-top: 1em; }
-  /* line 135, site.css.scss */
+  /* line 196, site.css.scss */
   .welcome .info {
     width: 100%;
-    height: 422px;
-    background-color: #074073;
+    height: 865px;
+    background-color: #003c75;
     color: white;
     font-weight: 300;
     text-align: center;
@@ -540,12 +854,12 @@ body {
     box-sizing: border-box;
     position: relative;
     z-index: -2; }
-    /* line 146, site.css.scss */
+    /* line 207, site.css.scss */
     .welcome .info .info-background {
       position: absolute;
       top: 0;
       left: 0;
-      height: 422px;
+      height: 865px;
       width: 100%;
       -webkit-animation-name: fade;
       -webkit-animation-duration: 1.5s;
@@ -556,25 +870,25 @@ body {
       background-repeat: no-repeat;
       display: none;
       z-index: -1; }
-      /* line 161, site.css.scss */
+      /* line 222, site.css.scss */
       .welcome .info .info-background.photo-0 {
         background-image: url("/images/top-photo.png"); }
-      /* line 164, site.css.scss */
+      /* line 225, site.css.scss */
       .welcome .info .info-background.photo-1 {
         background-image: url("/images/photo-1.jpg"); }
-      /* line 167, site.css.scss */
+      /* line 228, site.css.scss */
       .welcome .info .info-background.photo-2 {
         background-image: url("/images/photo-2.jpg"); }
-      /* line 170, site.css.scss */
+      /* line 231, site.css.scss */
       .welcome .info .info-background.photo-3 {
         background-image: url("/images/photo-3.jpg"); }
-      /* line 173, site.css.scss */
+      /* line 234, site.css.scss */
       .welcome .info .info-background.photo-4 {
         background-image: url("/images/photo-4.jpg"); }
-      /* line 176, site.css.scss */
+      /* line 237, site.css.scss */
       .welcome .info .info-background.photo-5 {
         background-image: url("/images/photo-5.jpg"); }
-      /* line 179, site.css.scss */
+      /* line 240, site.css.scss */
       .welcome .info .info-background.active {
         display: block; }
 @-webkit-keyframes fade {
@@ -587,17 +901,41 @@ body {
     opacity: .4; }
   to {
     opacity: 1; } }
-    /* line 192, site.css.scss */
+    /* line 253, site.css.scss */
     .welcome .info .info-container {
       margin: 0 auto;
-      max-width: 500px; }
-      /* line 195, site.css.scss */
+      max-width: 850px;
+      font-size: 0px; }
+      /* line 258, site.css.scss */
+      .welcome .info .info-container .sponsors a {
+        display: inline-block; }
+      /* line 263, site.css.scss */
+      .welcome .info .info-container .logo img {
+        width: 356px;
+        height: 254px; }
+      /* line 268, site.css.scss */
       .welcome .info .info-container .title {
-        font-size: 2.5em; }
-  /* line 200, site.css.scss */
+        font-size: 40px; }
+      /* line 271, site.css.scss */
+      .welcome .info .info-container .info-text {
+        font-size: 16px;
+        text-align: justify;
+        margin: 16px 0px;
+        box-sizing: border-box;
+        vertical-align: top;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 20px;
+        -moz-column-gap: 20px;
+        column-gap: 20px; }
+        /* line 283, site.css.scss */
+        .welcome .info .info-container .info-text p:first-of-type {
+          margin-top: 0px; }
+  /* line 289, site.css.scss */
   .welcome .information-spacer {
     width: 100%;
-    height: 400px;
+    height: 800px;
     background-image: url("/images/photo-6.png");
     background-size: cover;
     background-position: center;
@@ -607,7 +945,7 @@ body {
     padding: 25px;
     box-sizing: border-box;
     position: relative; }
-    /* line 212, site.css.scss */
+    /* line 301, site.css.scss */
     .welcome .information-spacer .information-spacer-container {
       position: absolute;
       top: 0;
@@ -616,15 +954,15 @@ body {
       left: 0;
       margin: auto;
       height: 155px; }
-      /* line 220, site.css.scss */
+      /* line 309, site.css.scss */
       .welcome .information-spacer .information-spacer-container h1 {
         font-size: 2.5em; }
-  /* line 225, site.css.scss */
+  /* line 314, site.css.scss */
   .welcome .information-participation {
     width: 100%;
     height: 500px;
     font-size: 0em; }
-    /* line 229, site.css.scss */
+    /* line 318, site.css.scss */
     .welcome .information-participation .information-participation-container {
       display: inline-block;
       width: 33.33%;
@@ -632,38 +970,38 @@ body {
       font-size: 16px;
       vertical-align: top;
       overflow-y: auto; }
-      /* line 236, site.css.scss */
+      /* line 325, site.css.scss */
       .welcome .information-participation .information-participation-container.facts {
         background: #70ce3d;
         position: relative;
         color: white; }
-        /* line 240, site.css.scss */
+        /* line 329, site.css.scss */
         .welcome .information-participation .information-participation-container.facts .top {
           background-image: url("/images/info-left.png"); }
-        /* line 243, site.css.scss */
+        /* line 332, site.css.scss */
         .welcome .information-participation .information-participation-container.facts .content {
           height: 400px;
           box-sizing: border-box;
           display: none;
           vertical-align: middle;
           position: relative; }
-          /* line 249, site.css.scss */
+          /* line 338, site.css.scss */
           .welcome .information-participation .information-participation-container.facts .content.active {
             display: table-cell; }
-          /* line 252, site.css.scss */
+          /* line 341, site.css.scss */
           .welcome .information-participation .information-participation-container.facts .content .fact {
             display: none; }
-            /* line 254, site.css.scss */
+            /* line 343, site.css.scss */
             .welcome .information-participation .information-participation-container.facts .content .fact.active {
               display: block; }
-          /* line 258, site.css.scss */
+          /* line 347, site.css.scss */
           .welcome .information-participation .information-participation-container.facts .content .fact-header {
             position: absolute;
             top: 10px; }
-          /* line 262, site.css.scss */
+          /* line 351, site.css.scss */
           .welcome .information-participation .information-participation-container.facts .content .fact-container {
             display: inline-block; }
-        /* line 266, site.css.scss */
+        /* line 355, site.css.scss */
         .welcome .information-participation .information-participation-container.facts .facts-nav {
           position: absolute;
           bottom: 10px;
@@ -672,24 +1010,24 @@ body {
           margin: auto;
           width: 100px;
           font-size: 2em; }
-          /* line 275, site.css.scss */
+          /* line 364, site.css.scss */
           .welcome .information-participation .information-participation-container.facts .facts-nav .arrow:hover {
             cursor: pointer; }
-          /* line 279, site.css.scss */
+          /* line 368, site.css.scss */
           .welcome .information-participation .information-participation-container.facts .facts-nav .prev {
             float: left; }
-          /* line 282, site.css.scss */
+          /* line 371, site.css.scss */
           .welcome .information-participation .information-participation-container.facts .facts-nav .next {
             float: right; }
-      /* line 287, site.css.scss */
+      /* line 376, site.css.scss */
       .welcome .information-participation .information-participation-container.poll {
         color: #074073;
         text-align: center; }
-        /* line 290, site.css.scss */
+        /* line 379, site.css.scss */
         .welcome .information-participation .information-participation-container.poll .top {
           background-image: url("/images/info-center.png");
           height: 250px; }
-      /* line 295, site.css.scss */
+      /* line 384, site.css.scss */
       .welcome .information-participation .information-participation-container.taller {
         color: white;
         text-align: right;
@@ -697,12 +1035,12 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-image: url("/images/info-right.png"); }
-        /* line 302, site.css.scss */
+        /* line 391, site.css.scss */
         .welcome .information-participation .information-participation-container.taller .content-container {
           position: relative;
           width: 100%;
           height: 100%; }
-          /* line 306, site.css.scss */
+          /* line 395, site.css.scss */
           .welcome .information-participation .information-participation-container.taller .content-container .content {
             position: absolute;
             display: none;
@@ -711,10 +1049,10 @@ body {
             transform: translate(-50%, -50%);
             width: 100%;
             box-sizing: border-box; }
-            /* line 314, site.css.scss */
+            /* line 403, site.css.scss */
             .welcome .information-participation .information-participation-container.taller .content-container .content.active {
               display: block; }
-          /* line 318, site.css.scss */
+          /* line 407, site.css.scss */
           .welcome .information-participation .information-participation-container.taller .content-container .events-nav {
             position: absolute;
             bottom: 10px;
@@ -723,48 +1061,131 @@ body {
             margin: auto;
             width: 100px;
             font-size: 2em; }
-            /* line 327, site.css.scss */
+            /* line 416, site.css.scss */
             .welcome .information-participation .information-participation-container.taller .content-container .events-nav .arrow:hover {
               cursor: pointer; }
-            /* line 331, site.css.scss */
+            /* line 420, site.css.scss */
             .welcome .information-participation .information-participation-container.taller .content-container .events-nav .prev {
               float: left; }
-            /* line 334, site.css.scss */
+            /* line 423, site.css.scss */
             .welcome .information-participation .information-participation-container.taller .content-container .events-nav .next {
               float: right; }
-      /* line 340, site.css.scss */
+      /* line 429, site.css.scss */
       .welcome .information-participation .information-participation-container .top {
         width: 100%;
         height: 100px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; }
-      /* line 347, site.css.scss */
+      /* line 436, site.css.scss */
       .welcome .information-participation .information-participation-container .content {
         padding: 10px 25px; }
-        /* line 349, site.css.scss */
+        /* line 438, site.css.scss */
         .welcome .information-participation .information-participation-container .content h2 {
           margin-top: 0px; }
-        /* line 352, site.css.scss */
+        /* line 441, site.css.scss */
         .welcome .information-participation .information-participation-container .content.poll {
           padding: 0px; }
-          /* line 354, site.css.scss */
+          /* line 443, site.css.scss */
           .welcome .information-participation .information-participation-container .content.poll h2 {
             margin-top: 10px; }
-  /* line 361, site.css.scss */
+  /* line 450, site.css.scss */
   .welcome .map {
     background-color: #074073;
     width: 100%; }
-    /* line 364, site.css.scss */
+    /* line 453, site.css.scss */
     .welcome .map .map-container {
       font-size: 0;
       max-width: 900px;
       margin: 0 auto; }
-      /* line 368, site.css.scss */
+      /* line 457, site.css.scss */
       .welcome .map .map-container img {
         width: 100%;
         height: auto; }
-  /* line 374, site.css.scss */
+  /* line 463, site.css.scss */
+  .welcome .team {
+    padding: 25px 0px 0px; }
+    /* line 465, site.css.scss */
+    .welcome .team .team-header {
+      color: #074073;
+      text-align: center;
+      width: 100%; }
+    /* line 470, site.css.scss */
+    .welcome .team .team-container {
+      width: 100%;
+      font-size: 0px; }
+      /* line 473, site.css.scss */
+      .welcome .team .team-container .team-member {
+        width: 25%;
+        height: 325px;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 14px;
+        color: white;
+        position: relative;
+        box-sizing: border-box; }
+        /* line 482, site.css.scss */
+        .welcome .team .team-container .team-member.one {
+          background: #074073; }
+          /* line 484, site.css.scss */
+          .welcome .team .team-container .team-member.one .team-member-photo {
+            background-image: url("/images/team-jimena.jpg"); }
+        /* line 488, site.css.scss */
+        .welcome .team .team-container .team-member.two {
+          background: #442400; }
+          /* line 490, site.css.scss */
+          .welcome .team .team-container .team-member.two .team-member-photo {
+            background-image: url("/images/team-diana.jpg"); }
+        /* line 494, site.css.scss */
+        .welcome .team .team-container .team-member.three {
+          background: #00acf2; }
+          /* line 496, site.css.scss */
+          .welcome .team .team-container .team-member.three .team-member-photo {
+            background-image: url("/images/team-maria.jpg"); }
+        /* line 500, site.css.scss */
+        .welcome .team .team-container .team-member.four {
+          background: #70ce3d; }
+          /* line 502, site.css.scss */
+          .welcome .team .team-container .team-member.four .team-member-photo {
+            background-image: url("/images/team-david.jpg"); }
+        /* line 506, site.css.scss */
+        .welcome .team .team-container .team-member.five {
+          background: red; }
+        /* line 509, site.css.scss */
+        .welcome .team .team-container .team-member.six {
+          background: #074073; }
+        /* line 512, site.css.scss */
+        .welcome .team .team-container .team-member.seven {
+          background: #ff9000; }
+        /* line 515, site.css.scss */
+        .welcome .team .team-container .team-member.eight {
+          background: #00acf2; }
+        /* line 518, site.css.scss */
+        .welcome .team .team-container .team-member .team-member-container {
+          height: 325px;
+          padding: 25px;
+          box-sizing: border-box; }
+          /* line 522, site.css.scss */
+          .welcome .team .team-container .team-member .team-member-container .team-member-photo {
+            width: 140px;
+            height: 140px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            background-size: cover;
+            border-radius: 50%; }
+          /* line 530, site.css.scss */
+          .welcome .team .team-container .team-member .team-member-container .team-member-info {
+            text-align: center;
+            margin: 15px auto 0;
+            width: 140px; }
+            /* line 534, site.css.scss */
+            .welcome .team .team-container .team-member .team-member-container .team-member-info .team-member-name {
+              border-bottom: 1px solid white;
+              padding-bottom: 5px; }
+            /* line 538, site.css.scss */
+            .welcome .team .team-container .team-member .team-member-container .team-member-info .team-member-title {
+              padding-top: 5px; }
+  /* line 546, site.css.scss */
   .welcome .volunteer {
     width: 100%;
     background-image: url("/images/bottom-photo.png");
@@ -775,28 +1196,28 @@ body {
     color: white;
     padding: 25px;
     box-sizing: border-box; }
-    /* line 384, site.css.scss */
+    /* line 556, site.css.scss */
     .welcome .volunteer .volunteer-container {
       max-width: 500px;
       margin: 0 auto; }
-  /* line 389, site.css.scss */
+  /* line 561, site.css.scss */
   .welcome .h3-logo {
     margin-top: -45px; }
 
-/* line 395, site.css.scss */
+/* line 567, site.css.scss */
 h1 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8em;
   font-weight: 400;
   margin: 0; }
 
-/* line 402, site.css.scss */
+/* line 574, site.css.scss */
 .doc {
   margin: 3em 0;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   font-weight: 300; }
-  /* line 408, site.css.scss */
+  /* line 580, site.css.scss */
   .doc a {
     border: 1px solid white;
     border-radius: 10px;
@@ -805,20 +1226,20 @@ h1 {
     text-decoration: none;
     transition: color 0.1s linear;
     background: none; }
-    /* line 416, site.css.scss */
+    /* line 588, site.css.scss */
     .doc a:hover {
       background: #00adee;
       color: white;
       transition: all 0.15s linear; }
-  /* line 422, site.css.scss */
+  /* line 594, site.css.scss */
   .doc.poll {
     margin: 4.5em 0; }
-    /* line 424, site.css.scss */
+    /* line 596, site.css.scss */
     .doc.poll a {
       background: #00adee;
       color: white;
       border-color: #00adee; }
-      /* line 428, site.css.scss */
+      /* line 600, site.css.scss */
       .doc.poll a:hover {
         background: white;
         color: #00adee; }

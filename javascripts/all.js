@@ -44,7 +44,7 @@ function autoSlides() {
         autoSlideIndex = 1;
       }
       autoSlidesList[autoSlideIndex-1].classList.add('active');
-      setTimeout(autoSlides, 3000); // Change image every 2 seconds
+      setTimeout(autoSlides, 5000); // Change image every 2 seconds
     }
 }
 
@@ -103,6 +103,29 @@ function showSlides(n, slideshow) {
 
 window.onload = function() {
 
+
+  ////
+  // Show and hide the menu
+  ////
+
+  var menu = document.getElementById('nav');
+  var body = document.body
+
+  menu.addEventListener('click', function(e) {
+    e.stopPropagation();
+    if (menu.classList.contains('visible')) {
+      menu.classList.remove('visible');
+    } else {
+      menu.classList.add('visible');
+    }
+  })
+
+  body.addEventListener('click', function(e) {
+    e.stopPropagation();
+    if (menu.classList.contains('visible')) {
+      menu.classList.remove('visible');
+    }
+  })
   ////
   // Show and hide items based on language options
   ////
