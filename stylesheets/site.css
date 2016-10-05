@@ -407,7 +407,7 @@ textarea {
 /* line 2, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
 .about .title-container {
   width: 100%;
-  height: 700px;
+  height: 300px;
   color: white;
   font-weight: 300;
   text-align: center;
@@ -426,53 +426,67 @@ textarea {
     bottom: 0;
     left: 0;
     margin: auto;
-    height: 86px;
-    font-size: 2.5em; }
+    height: 65px;
+    font-size: 1.8em; }
 /* line 26, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
 .about .info {
   width: 100%;
-  height: 750px;
   padding: 25px;
   box-sizing: border-box; }
-  /* line 31, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+  /* line 30, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
   .about .info .info-container {
     max-width: 850px;
     font-size: 0;
     margin: 0 auto; }
-    /* line 35, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+    /* line 34, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
     .about .info .info-container .info-left, .about .info .info-container .info-right {
-      display: inline-block;
-      width: 50%;
-      height: 700px;
+      display: block;
+      width: 100%;
       font-size: 14px;
       vertical-align: top;
       padding: 10px;
       box-sizing: border-box;
       text-align: justify;
       color: #003c75; }
-      /* line 45, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+      /* line 43, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
       .about .info .info-container .info-left .logos, .about .info .info-container .info-right .logos {
         text-align: center; }
-        /* line 48, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+        /* line 46, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
         .about .info .info-container .info-left .logos .sponsors a, .about .info .info-container .info-right .logos .sponsors a {
           display: inline-block;
           margin: 0px 10px; }
-          /* line 52, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+          /* line 50, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
           .about .info .info-container .info-left .logos .sponsors a .habitat img, .about .info .info-container .info-right .logos .sponsors a .habitat img {
             width: 164px;
             height: 97px; }
-          /* line 58, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+          /* line 56, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
           .about .info .info-container .info-left .logos .sponsors a .habitat-circle img, .about .info .info-container .info-right .logos .sponsors a .habitat-circle img {
             width: 98px;
             height: 97px; }
-        /* line 65, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+        /* line 63, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
         .about .info .info-container .info-left .logos .logo, .about .info .info-container .info-right .logos .logo {
           margin: 20px 0px; }
-          /* line 67, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+          /* line 65, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
           .about .info .info-container .info-left .logos .logo img, .about .info .info-container .info-right .logos .logo img {
             width: 315px;
             height: 201px; }
 
+@media screen and (min-width: 480px) {
+  /* line 78, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+  .about .title-container {
+    height: 450px; }
+    /* line 80, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+    .about .title-container .title {
+      height: 86px;
+      font-size: 2.5em; } }
+@media screen and (min-width: 768px) {
+  /* line 90, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+  .about .title-container {
+    height: 700px; }
+  /* line 95, /Users/david/dev/personal/vive_alameda/source/stylesheets/_about.scss */
+  .about .info .info-container .info-left, .about .info .info-container .info-right {
+    display: inline-block;
+    width: 50%; } }
 /* line 2, /Users/david/dev/personal/vive_alameda/source/stylesheets/_learn_more.scss */
 .learn-more .title-container {
   width: 100%;
@@ -545,7 +559,7 @@ textarea {
 /* line 2, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
 .gallery .title-container {
   width: 100%;
-  height: 700px;
+  height: 300px;
   color: white;
   font-weight: 300;
   text-align: center;
@@ -567,54 +581,173 @@ textarea {
     height: 86px;
     font-size: 2.5em; }
 /* line 26, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
-.gallery .info {
+.gallery .photos {
   width: 100%;
-  height: 750px;
-  padding: 25px;
-  box-sizing: border-box; }
-  /* line 31, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
-  .gallery .info .info-container {
-    max-width: 850px;
-    font-size: 0;
-    margin: 0 auto; }
-    /* line 35, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
-    .gallery .info .info-container .info-left, .gallery .info .info-container .info-right {
-      display: inline-block;
-      width: 50%;
-      height: 700px;
-      font-size: 14px;
-      vertical-align: top;
-      padding: 10px;
-      box-sizing: border-box;
-      text-align: justify;
-      color: #003c75; }
-      /* line 45, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
-      .gallery .info .info-container .info-left .logos, .gallery .info .info-container .info-right .logos {
-        text-align: center; }
-        /* line 48, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
-        .gallery .info .info-container .info-left .logos .sponsors a, .gallery .info .info-container .info-right .logos .sponsors a {
-          display: inline-block;
-          margin: 0px 10px; }
-          /* line 52, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
-          .gallery .info .info-container .info-left .logos .sponsors a .habitat img, .gallery .info .info-container .info-right .logos .sponsors a .habitat img {
-            width: 164px;
-            height: 97px; }
-          /* line 58, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
-          .gallery .info .info-container .info-left .logos .sponsors a .habitat-circle img, .gallery .info .info-container .info-right .logos .sponsors a .habitat-circle img {
-            width: 98px;
-            height: 97px; }
-        /* line 65, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
-        .gallery .info .info-container .info-left .logos .logo, .gallery .info .info-container .info-right .logos .logo {
-          margin: 20px 0px; }
-          /* line 67, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
-          .gallery .info .info-container .info-left .logos .logo img, .gallery .info .info-container .info-right .logos .logo img {
-            width: 315px;
-            height: 201px; }
+  box-sizing: border-box;
+  font-size: 0px; }
+  /* line 30, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+  .gallery .photos .photo-container {
+    width: 100%;
+    display: block; }
+    /* line 33, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+    .gallery .photos .photo-container .photo-image {
+      position: relative;
+      padding-bottom: 66%;
+      background-size: cover;
+      background-position: center; }
+      /* line 38, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.one {
+        background-image: url("/images/gallery/1.jpg"); }
+      /* line 41, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.two {
+        background-image: url("/images/gallery/2.jpg"); }
+      /* line 44, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.three {
+        background-image: url("/images/gallery/3.jpg"); }
+      /* line 47, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.four {
+        background-image: url("/images/gallery/4.jpg"); }
+      /* line 50, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.five {
+        background-image: url("/images/gallery/5.jpg"); }
+      /* line 53, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.six {
+        background-image: url("/images/gallery/6.jpg"); }
+      /* line 56, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.seven {
+        background-image: url("/images/gallery/7.jpg"); }
+      /* line 59, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.eight {
+        background-image: url("/images/gallery/8.jpg"); }
+      /* line 62, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.nine {
+        background-image: url("/images/gallery/9.jpg"); }
+      /* line 65, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.ten {
+        background-image: url("/images/gallery/10.jpg"); }
+      /* line 68, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.eleven {
+        background-image: url("/images/gallery/11.jpg"); }
+      /* line 71, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twelve {
+        background-image: url("/images/gallery/12.jpg"); }
+      /* line 74, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirteen {
+        background-image: url("/images/gallery/13.jpg"); }
+      /* line 77, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.fourteen {
+        background-image: url("/images/gallery/14.jpg"); }
+      /* line 80, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.fifteen {
+        background-image: url("/images/gallery/15.jpg"); }
+      /* line 83, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.sixteen {
+        background-image: url("/images/gallery/16.jpg"); }
+      /* line 86, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.seventeen {
+        background-image: url("/images/gallery/17.jpg"); }
+      /* line 89, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.eighteen {
+        background-image: url("/images/gallery/18.jpg"); }
+      /* line 92, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.nineteen {
+        background-image: url("/images/gallery/19.jpg"); }
+      /* line 95, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twenty {
+        background-image: url("/images/gallery/20.jpg"); }
+      /* line 98, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twentyone {
+        background-image: url("/images/gallery/21.jpg"); }
+      /* line 101, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twentytwo {
+        background-image: url("/images/gallery/22.jpg"); }
+      /* line 104, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twentythree {
+        background-image: url("/images/gallery/23.jpg"); }
+      /* line 107, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twentyfour {
+        background-image: url("/images/gallery/24.jpg"); }
+      /* line 110, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twentyfive {
+        background-image: url("/images/gallery/25.jpg"); }
+      /* line 113, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twentysix {
+        background-image: url("/images/gallery/26.jpg"); }
+      /* line 116, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twentyseven {
+        background-image: url("/images/gallery/27.jpg"); }
+      /* line 119, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twentyeight {
+        background-image: url("/images/gallery/28.jpg"); }
+      /* line 122, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.twentynine {
+        background-image: url("/images/gallery/29.jpg"); }
+      /* line 125, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirty {
+        background-image: url("/images/gallery/30.jpg"); }
+      /* line 128, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirtyone {
+        background-image: url("/images/gallery/31.jpg"); }
+      /* line 131, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirtytwo {
+        background-image: url("/images/gallery/32.jpg"); }
+      /* line 134, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirtythree {
+        background-image: url("/images/gallery/33.jpg"); }
+      /* line 137, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirtyfour {
+        background-image: url("/images/gallery/34.jpg"); }
+      /* line 140, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirtyfive {
+        background-image: url("/images/gallery/35.jpg"); }
+      /* line 143, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirtysix {
+        background-image: url("/images/gallery/36.jpg"); }
+      /* line 146, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirtyseven {
+        background-image: url("/images/gallery/37.jpg"); }
+      /* line 149, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirtyeight {
+        background-image: url("/images/gallery/38.jpg"); }
+      /* line 152, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.thirtynine {
+        background-image: url("/images/gallery/39.jpg"); }
+      /* line 155, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image.fourty {
+        background-image: url("/images/gallery/40.jpg"); }
+      /* line 158, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+      .gallery .photos .photo-container .photo-image .photo-caption {
+        font-size: 16px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        color: white; }
 
+@media screen and (min-width: 480px) {
+  /* line 175, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+  .gallery .title-container {
+    height: 450px; }
+  /* line 179, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+  .gallery .photos .photo-container {
+    width: 50%;
+    display: inline-block; }
+    /* line 182, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+    .gallery .photos .photo-container .photo-image {
+      padding-bottom: 75%; } }
+@media screen and (min-width: 768px) {
+  /* line 192, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+  .gallery .title-container {
+    height: 700px; }
+  /* line 196, /Users/david/dev/personal/vive_alameda/source/stylesheets/_gallery.scss */
+  .gallery .photos .photo-container {
+    width: 25%; } }
 /* line 2, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
 .events .title-container {
   width: 100%;
-  height: 700px;
+  height: 300px;
   color: white;
   font-weight: 300;
   text-align: center;
@@ -633,53 +766,44 @@ textarea {
     bottom: 0;
     left: 0;
     margin: auto;
-    height: 86px;
-    font-size: 2.5em; }
-/* line 26, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
-.events .info {
-  width: 100%;
-  height: 750px;
-  padding: 25px;
-  box-sizing: border-box; }
-  /* line 31, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
-  .events .info .info-container {
-    max-width: 850px;
-    font-size: 0;
-    margin: 0 auto; }
-    /* line 35, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
-    .events .info .info-container .info-left, .events .info .info-container .info-right {
-      display: inline-block;
-      width: 50%;
-      height: 700px;
-      font-size: 14px;
-      vertical-align: top;
-      padding: 10px;
-      box-sizing: border-box;
-      text-align: justify;
-      color: #003c75; }
-      /* line 45, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
-      .events .info .info-container .info-left .logos, .events .info .info-container .info-right .logos {
-        text-align: center; }
-        /* line 48, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
-        .events .info .info-container .info-left .logos .sponsors a, .events .info .info-container .info-right .logos .sponsors a {
-          display: inline-block;
-          margin: 0px 10px; }
-          /* line 52, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
-          .events .info .info-container .info-left .logos .sponsors a .habitat img, .events .info .info-container .info-right .logos .sponsors a .habitat img {
-            width: 164px;
-            height: 97px; }
-          /* line 58, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
-          .events .info .info-container .info-left .logos .sponsors a .habitat-circle img, .events .info .info-container .info-right .logos .sponsors a .habitat-circle img {
-            width: 98px;
-            height: 97px; }
-        /* line 65, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
-        .events .info .info-container .info-left .logos .logo, .events .info .info-container .info-right .logos .logo {
-          margin: 20px 0px; }
-          /* line 67, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
-          .events .info .info-container .info-left .logos .logo img, .events .info .info-container .info-right .logos .logo img {
-            width: 315px;
-            height: 201px; }
+    height: 65px;
+    font-size: 1.8em; }
+/* line 27, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+.events .event-containers .event-container {
+  color: white;
+  padding: 25px 10px; }
+  /* line 30, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+  .events .event-containers .event-container.darkblue {
+    background: #003c75; }
+  /* line 33, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+  .events .event-containers .event-container.orange {
+    background: #ff9000; }
+  /* line 36, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+  .events .event-containers .event-container.lightblue {
+    background: #00acf2; }
+  /* line 39, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+  .events .event-containers .event-container h2 {
+    margin-top: 16px; }
+  /* line 42, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+  .events .event-containers .event-container a {
+    text-decoration: none;
+    color: white; }
 
+@media screen and (min-width: 480px) {
+  /* line 52, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+  .events .title-container {
+    height: 450px; }
+    /* line 54, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+    .events .title-container .title {
+      height: 86px;
+      font-size: 2.5em; }
+  /* line 60, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+  .events .event-containers .event-container {
+    padding: 25px; } }
+@media screen and (min-width: 768px) {
+  /* line 69, /Users/david/dev/personal/vive_alameda/source/stylesheets/_events.scss */
+  .events .title-container {
+    height: 700px; } }
 /* line 1, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
 .welcome {
   width: 100%; }
@@ -998,25 +1122,49 @@ textarea {
           background: #70ce3d; }
           /* line 319, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
           .welcome .team .team-container .team-member.four .team-member-photo {
-            background-image: url("/images/team-david.jpg"); }
+            background-image: url("/images/team-eduardo.jpg"); }
         /* line 323, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
         .welcome .team .team-container .team-member.five {
           background: red; }
-        /* line 326, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          /* line 325, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          .welcome .team .team-container .team-member.five .team-member-photo {
+            background-image: url("/images/team-andrew.jpg"); }
+        /* line 329, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
         .welcome .team .team-container .team-member.six {
           background: #074073; }
-        /* line 329, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          /* line 331, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          .welcome .team .team-container .team-member.six .team-member-photo {
+            background-image: url("/images/team-denisse.jpg"); }
+        /* line 335, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
         .welcome .team .team-container .team-member.seven {
           background: #ff9000; }
-        /* line 332, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          /* line 337, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          .welcome .team .team-container .team-member.seven .team-member-photo {
+            background-image: url("/images/team-carolina.jpg"); }
+        /* line 341, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
         .welcome .team .team-container .team-member.eight {
           background: #00acf2; }
-        /* line 335, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          /* line 343, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          .welcome .team .team-container .team-member.eight .team-member-photo {
+            background-image: url("/images/team-juan.jpg"); }
+        /* line 347, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
         .welcome .team .team-container .team-member .team-member-container {
           height: 325px;
           padding: 25px;
           box-sizing: border-box; }
-          /* line 339, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          /* line 351, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          .welcome .team .team-container .team-member .team-member-container:hover {
+            display: table; }
+            /* line 353, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+            .welcome .team .team-container .team-member .team-member-container:hover .team-member-photo {
+              display: none; }
+            /* line 356, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+            .welcome .team .team-container .team-member .team-member-container:hover .team-member-info {
+              display: none; }
+            /* line 359, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+            .welcome .team .team-container .team-member .team-member-container:hover .team-member-bio {
+              display: table-cell; }
+          /* line 363, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
           .welcome .team .team-container .team-member .team-member-container .team-member-photo {
             width: 140px;
             height: 140px;
@@ -1024,19 +1172,25 @@ textarea {
             box-sizing: border-box;
             background-size: cover;
             border-radius: 50%; }
-          /* line 347, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          /* line 371, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
           .welcome .team .team-container .team-member .team-member-container .team-member-info {
             text-align: center;
             margin: 15px auto 0;
             width: 140px; }
-            /* line 351, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+            /* line 375, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
             .welcome .team .team-container .team-member .team-member-container .team-member-info .team-member-name {
               border-bottom: 1px solid white;
               padding-bottom: 5px; }
-            /* line 355, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+            /* line 379, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
             .welcome .team .team-container .team-member .team-member-container .team-member-info .team-member-title {
               padding-top: 5px; }
-  /* line 363, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          /* line 383, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          .welcome .team .team-container .team-member .team-member-container .team-member-bio {
+            display: none;
+            text-align: justify;
+            font-size: 10px;
+            vertical-align: middle; }
+  /* line 393, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
   .welcome .volunteer {
     width: 100%;
     background-image: url("/images/bottom-photo.png");
@@ -1047,89 +1201,89 @@ textarea {
     color: white;
     padding: 25px 10px;
     box-sizing: border-box; }
-    /* line 373, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+    /* line 403, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
     .welcome .volunteer .volunteer-container {
       max-width: 500px;
       margin: 0 auto; }
-      /* line 377, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 407, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .volunteer .volunteer-container .logo img {
         width: 300px;
         height: 214px; }
-      /* line 382, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
-      .welcome .volunteer .volunteer-container .doc {
-        margin: 3em 0;
-        font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 1em;
-        font-weight: 300;
-        background: none; }
-        /* line 388, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
-        .welcome .volunteer .volunteer-container .doc a {
-          border: 1px solid white;
-          border-radius: 10px;
-          padding: 0.75em 1.75em;
-          color: white;
-          text-decoration: none;
-          transition: color 0.1s linear;
-          background: none; }
-          /* line 396, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
-          .welcome .volunteer .volunteer-container .doc a:hover {
-            background: #00adee;
-            color: white;
-            transition: all 0.15s linear; }
-        /* line 402, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
-        .welcome .volunteer .volunteer-container .doc.poll {
-          margin: 4.5em 0; }
-          /* line 404, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
-          .welcome .volunteer .volunteer-container .doc.poll a {
-            background: #00adee;
-            color: white;
-            border-color: #00adee; }
-            /* line 408, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
-            .welcome .volunteer .volunteer-container .doc.poll a:hover {
-              background: white;
-              color: #00adee; }
-  /* line 417, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+  /* line 414, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+  .welcome .doc {
+    margin: 3em 0;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    background: none; }
+    /* line 420, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+    .welcome .doc a {
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 0.75em 1.75em;
+      color: white;
+      text-decoration: none;
+      transition: color 0.1s linear;
+      background: none; }
+      /* line 428, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      .welcome .doc a:hover {
+        background: #00adee;
+        color: white;
+        transition: all 0.15s linear; }
+    /* line 434, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+    .welcome .doc.poll {
+      margin: 4.5em 0; }
+      /* line 436, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      .welcome .doc.poll a {
+        background: #00adee;
+        color: white;
+        border-color: #00adee; }
+        /* line 440, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+        .welcome .doc.poll a:hover {
+          background: white;
+          color: #00adee; }
+  /* line 447, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
   .welcome .h3-logo {
     margin-top: -45px; }
 
 @media screen and (min-width: 480px) {
-  /* line 424, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+  /* line 454, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
   .welcome .info {
     height: 865px;
     padding: 25px; }
-    /* line 427, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+    /* line 457, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
     .welcome .info .info-background {
       height: 865px; }
-    /* line 430, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+    /* line 460, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
     .welcome .info .info-container {
       max-width: 850px; }
-      /* line 433, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 463, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .info .info-container .sponsors a {
         margin: 0px 10px; }
-        /* line 435, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+        /* line 465, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
         .welcome .info .info-container .sponsors a .habitat {
           width: 164px;
           height: 97px; }
-          /* line 438, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          /* line 468, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
           .welcome .info .info-container .sponsors a .habitat img {
             width: 164px;
             height: 97px; }
-        /* line 443, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+        /* line 473, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
         .welcome .info .info-container .sponsors a .habitat-circle {
           width: 98px;
           height: 97px; }
-          /* line 446, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+          /* line 476, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
           .welcome .info .info-container .sponsors a .habitat-circle img {
             width: 98px;
             height: 97px; }
-      /* line 454, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 484, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .info .info-container .logo img {
         width: 356px;
         height: 254px; }
-      /* line 459, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 489, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .info .info-container .title {
         font-size: 40px; }
-      /* line 462, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 492, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .info .info-container .info-text {
         font-size: 16px;
         margin: 16px 0px;
@@ -1139,21 +1293,21 @@ textarea {
         -webkit-column-gap: 20px;
         -moz-column-gap: 20px;
         column-gap: 20px; }
-        /* line 471, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+        /* line 501, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
         .welcome .info .info-container .info-text p:first-of-type {
           margin-top: 0px; }
-  /* line 477, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+  /* line 507, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
   .welcome .information-spacer {
     height: 800px;
     padding: 25px; }
-    /* line 480, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+    /* line 510, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
     .welcome .information-spacer .information-spacer-container {
       height: 155px; }
-  /* line 486, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+  /* line 516, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
   .welcome .team .team-container .team-member {
     width: 50%;
     display: inline-block; }
-  /* line 492, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+  /* line 522, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
   .welcome .volunteer {
     width: 100%;
     background-image: url("/images/bottom-photo.png");
@@ -1164,14 +1318,14 @@ textarea {
     color: white;
     padding: 25px;
     box-sizing: border-box; }
-    /* line 507, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
-    .welcome .volunteer .volunteer-container .doc {
-      font-size: 1.1em; } }
+  /* line 539, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+  .welcome .doc {
+    font-size: 1.1em; } }
 @media screen and (min-width: 768px) {
-  /* line 517, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+  /* line 547, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
   .welcome .information-participation {
     height: 500px; }
-    /* line 519, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+    /* line 549, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
     .welcome .information-participation .information-participation-container {
       display: inline-block;
       width: 33.33%;
@@ -1179,30 +1333,30 @@ textarea {
       font-size: 16px;
       vertical-align: top;
       overflow-y: auto; }
-      /* line 527, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 557, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .information-participation .information-participation-container.facts .content {
         height: 400px; }
-      /* line 530, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 560, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .information-participation .information-participation-container.facts .facts-nav {
         width: 100px; }
-      /* line 535, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 565, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .information-participation .information-participation-container.poll .top {
         height: 250px; }
-      /* line 540, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 570, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .information-participation .information-participation-container.taller .content-container {
         position: relative;
         width: 100%;
         height: 100%; }
-        /* line 544, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+        /* line 574, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
         .welcome .information-participation .information-participation-container.taller .content-container .events-nav {
           width: 100px; }
-      /* line 549, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 579, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .information-participation .information-participation-container .top {
         height: 100px; }
-      /* line 552, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+      /* line 582, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
       .welcome .information-participation .information-participation-container .content {
         padding: 10px 25px; }
-  /* line 559, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
+  /* line 589, /Users/david/dev/personal/vive_alameda/source/stylesheets/_welcome.scss */
   .welcome .team .team-container .team-member {
     width: 25%; } }
 /* line 15, site.css.scss */
@@ -1340,10 +1494,9 @@ html {
         /* line 151, site.css.scss */
         html body #footer .sponsors.right {
           display: block;
-          border-top: 1px solid #003c75;
           padding-top: 30px;
           vertical-align: top; }
-          /* line 156, site.css.scss */
+          /* line 155, site.css.scss */
           html body #footer .sponsors.right h3 {
             height: 30px;
             color: #003c75;
@@ -1351,25 +1504,25 @@ html {
             text-align: center;
             margin-bottom: 0;
             margin-top: 0; }
-          /* line 164, site.css.scss */
+          /* line 163, site.css.scss */
           html body #footer .sponsors.right .logo-container {
             height: 130px;
             padding-top: 0;
             padding-left: 0; }
-        /* line 170, site.css.scss */
+        /* line 169, site.css.scss */
         html body #footer .sponsors .logo-container {
           display: block;
           padding: 10px;
           box-sizing: border-box; }
-          /* line 174, site.css.scss */
+          /* line 173, site.css.scss */
           html body #footer .sponsors .logo-container img {
             width: auto;
             height: 100%;
             vertical-align: middle; }
-            /* line 178, site.css.scss */
+            /* line 177, site.css.scss */
             html body #footer .sponsors .logo-container img.small {
               height: 60%; }
-    /* line 185, site.css.scss */
+    /* line 184, site.css.scss */
     html body h1 {
       font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 1.8em;
@@ -1377,37 +1530,37 @@ html {
       margin: 0; }
 
 @media screen and (min-width: 480px) {
-  /* line 199, site.css.scss */
+  /* line 198, site.css.scss */
   html body #header #nav ul {
     padding: 0px;
     width: 170px;
     margin: 0px;
     top: 44px;
     left: -25px; }
-    /* line 205, site.css.scss */
+    /* line 204, site.css.scss */
     html body #header #nav ul li {
       width: 125px;
       padding: 15px 30px; }
-  /* line 212, site.css.scss */
+  /* line 211, site.css.scss */
   html body #header .social-links a {
     display: inline-block; }
-  /* line 215, site.css.scss */
+  /* line 214, site.css.scss */
   html body #header .social-links .language-options {
     margin-right: 15px; }
-  /* line 222, site.css.scss */
+  /* line 221, site.css.scss */
   html body #footer .sponsors .logo-container {
     display: inline-block; } }
 @media screen and (min-width: 768px) {
-  /* line 236, site.css.scss */
+  /* line 235, site.css.scss */
   html body #footer .sponsors.left {
     display: inline-block; }
-  /* line 239, site.css.scss */
+  /* line 238, site.css.scss */
   html body #footer .sponsors.right {
     display: inline-block;
     border-top: none;
     padding-top: 0px;
     border-left: 1px solid #003c75;
     padding-left: 30px; }
-    /* line 245, site.css.scss */
+    /* line 244, site.css.scss */
     html body #footer .sponsors.right h3 {
       text-align: left; } }
