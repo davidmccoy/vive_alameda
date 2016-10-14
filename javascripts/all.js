@@ -43,8 +43,10 @@ function autoSlides() {
       if (autoSlideIndex> autoSlidesList.length) {
         autoSlideIndex = 1;
       }
-      autoSlidesList[autoSlideIndex-1].classList.add('active');
-      setTimeout(autoSlides, 5000); // Change image every 2 seconds
+      if (autoSlidesList[autoSlideIndex-1] !== undefined) {
+        autoSlidesList[autoSlideIndex-1].classList.add('active');
+        setTimeout(autoSlides, 5000); // Change image every 2 seconds
+      }
     }
 }
 
